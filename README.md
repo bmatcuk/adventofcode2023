@@ -22,7 +22,7 @@ But, it's not without its problems.
 * (Almost) everything is an expression is cool. I kind of like when languages
   do that. But I'd argue that other languages do a better job of it. For
   starters, the "almost" qualifier - why can't an assignment be an expression?
-  Then there was the error I ran into on [day 15, part2]. The compiler reasons
+  Then there was the error I ran into on [day 15, part 2]. The compiler reasons
   that the return value of the `RGX.matchEntire(it)?.let { ... }` will be
   `Unit` because it is the last statement in the enclosing `forEach`, which
   expects a `Unit` return value. However, if you uncomment the lines below the
